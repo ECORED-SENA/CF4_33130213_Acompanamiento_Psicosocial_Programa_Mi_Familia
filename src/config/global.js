@@ -135,7 +135,7 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
         titulo:
@@ -185,202 +185,101 @@ export default {
   },
   complementario: [
     {
-      tema:
-        '¿Qué aspectos son relevantes en la comprensión de las familias por parte del PAF, desde los enfoques que considera Mi familia?',
+      tema: 'Articulación con protección',
       referencia:
-        'ICBF. (2021). Guía de convergencia de oferta y gestión de redes. ICBF. ',
-      tipo: 'Guía',
-      link:
-        'https://www.icbf.gov.co/system/files/procesos/g7.mo18.pp_guia_convergencia_de_oferta_y_redes_mi_familia_v1.pdf',
+        'ICBF & USAID. (2021). Los primeros pasos hacia la reunificación familiar.',
+      tipo: 'Cartilla',
+      descarga: '/downloads/anexo1.pdf',
     },
     {
-      tema: 'Ficha de caracterización sociofamiliar',
-      referencia:
-        'ICBF. (2020). Guía para el diligenciamiento Ficha de caracterización sociofamiliar. ICBF.',
-      tipo: 'Guía',
-      link:
-        'https://www.icbf.gov.co/system/files/procesos/g4.mo18.pp_guia_para_diligenciamiento_ficha_caracterizacion_socio_familiar_v2.pdf',
+      tema: 'Articulación con protección',
+      referencia: 'ICBF & USAID. (2021). Pensarnos en Familia.',
+      tipo: 'Cartilla',
+      descarga: '/downloads/anexo2.pdf',
     },
     {
-      tema: 'Genograma',
-      referencia: 'ICBF. (s.f.). Mi familia. Ficha técnica genograma. ICBF. ',
-      tipo: 'Ficha técnica',
-      link:
-        'https://www.icbf.gov.co/system/files/procesos/pu4.g1.mo18.pp_ficha_tecnica_-_genograma_v1.pdf ',
+      tema: 'Articulación con protección',
+      referencia: 'ICBF & USAID. (2021). Pensarnos en Familia.',
+      tipo: 'Cartilla',
+      descarga: '/downloads/anexo3.pdf',
     },
     {
-      tema: 'Ecomapa',
-      referencia: 'ICBF. (s.f.). Mi familia. Ficha técnica Ecomapa. ICBF. ',
-      tipo: 'Ficha técnica',
-      link:
-        'https://www.icbf.gov.co/system/files/procesos/pu3.g1.mo18.pp_ficha_tecnica_-_ecomapa_v1.pdf',
-    },
-    {
-      tema: 'Instrumentos de medición de habilidades',
-      referencia:
-        'ICBF. (s.f.). Mi familia. Ficha técnica autoeficacia parental. ICBF.',
-      tipo: 'Ficha técnica',
-      link:
-        'https://www.icbf.gov.co/system/files/procesos/pu1.g1.mo18.pp_ficha_tecnica_-_autoeficacia_parental_v1.pdf',
-    },
-    {
-      tema: 'Instrumentos de medición de habilidades',
-      referencia:
-        'ICBF. (s.f.). Mi familia. Ficha técnica autoeficacia parental. ICBF.',
-      tipo: 'Ficha técnica',
-      link:
-        'https://www.icbf.gov.co/system/files/procesos/pu2.g1.mo18.pp_ficha_tecnica_-_disciplina_positiva_v1.pdf',
-    },
-    {
-      tema: 'Instrumentos de medición de habilidades',
-      referencia:
-        'ICBF. (s.f.). Mi familia. Ficha técnica autoeficacia parental. ICBF.',
-      tipo: 'Ficha técnica',
-      link:
-        'https://www.icbf.gov.co/system/files/procesos/pu1.g1.mo18.pp_ficha_tecnica_-_autoeficacia_parental_v1.pdf',
-    },
-    {
-      tema: 'Instrumentos de medición de habilidades',
-      referencia:
-        'ICBF. (s.f.). Mi familia. Ficha técnica autoeficacia parental. ICBF.',
-      tipo: 'Ficha técnica',
-      link:
-        'https://www.icbf.gov.co/system/files/procesos/pu6.g1.mo18.pp_ficha_tecnica_-_vinculacion_v1.pdf',
-    },
-    {
-      tema:
-        '¿Cuál es la relación entre las cartillas metodológicas y el plan familiar?',
-      referencia:
-        'ICBF. (2022). Guía de orientaciones metodológicas para el desarrollo de la iniciativa comunitaria en el marco de los encuentros comunitarios. ICBF.  ',
-      tipo: 'Guía',
-      link:
-        'https://www.icbf.gov.co/system/files/procesos/g8.mo18.pp_guia_iniciativas_comunitarias_v1_0.pdf',
+      tema: 'Articulación con protección',
+      referencia: 'ICBF & USAID. (2021). Fortaleciéndonos en familia.',
+      tipo: 'Cartilla',
+      descarga: '/downloads/anexo4.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Autoeficacia',
-      significado:
-        'Es la percepción que una persona tiene de su propia capacidad para ejecutar determinadas tareas con un buen rendimiento. La autoeficacia no es una característica global en una persona, sino que responde a aspectos y tareas concretas en momentos determinados, por ejemplo, alguien puede tener alto sentido de autoeficacia en el trabajo o en su vida social, y tener un bajo nivel de autoeficacia como padre o madre.',
+      termino: 'UAFU',
+      significado: ' Unidad de Acompañamiento Familiar Urbana.',
     },
     {
-      termino: 'Cartilla metodológica',
-      significado:
-        'Instrumento de apoyo para orientar el desarrollo del plan familiar con cada familia beneficiaria.',
+      termino: 'UAFR',
+      significado: ' Unidad de Acompañamiento Familiar Rural.',
     },
     {
-      termino: 'Ecomapa',
-      significado:
-        'Representación gráfica de la relación o del sistema de vinculación más significativo de una persona o de la familia con su contexto primario, instituciones y actores sociales. Se constituye en una herramienta complementaria al genograma con el objetivo de aproximarse a la realidad familiar.',
-    },
-    {
-      termino: 'FCSF',
-      significado:
-        ' Ficha de caracterización sociofamiliar. Permite el registro de todas las personas que pertenecen al grupo familiar beneficiario de Mi familia.',
-    },
-    {
-      termino: 'Genograma',
-      significado:
-        'Instrumento gráfico que permite conocer, recoger, registrar y exponer algunos datos de la familia, información de sus integrantes y las relaciones a lo largo de diferentes generaciones (Fernández, Escalante & Palmero, 2011).',
-    },
-    {
-      termino: 'Mi familia',
-      significado:
-        'Programa de acompañamiento familiar psicosocial que tiene como objetivo fortalecer las capacidades de las familias para promover el desarrollo integral de los niños, las niñas y los adolescentes, y reducir y mitigar los efectos de la violencia, el abuso o la negligencia en su contra.',
+      termino: 'NNAcD',
+      significado: 'abreviatura de niños, niñas y adolescentes.',
     },
     {
       termino: 'PAF',
-      significado: 'Abreviatura de profesional de acompañamiento familiar.',
+      significado: ' abreviatura de Profesional de Acompañamiento Familiar.',
     },
     {
-      termino: 'Prácticas parentales',
-      significado:
-        'Conjunto de actitudes y comportamientos específicos que utilizan los padres y las madres para interactuar con sus hijos e hijas (Ceulemans & Kuppens, 2018).',
+      termino: 'PcD',
+      significado: 'abreviatura de persona con discapacidad.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Ardila, G. (2006). Cultura y desarrollo territorial. Diplomado Gestión de procesos culturales y construcción de lo público. Instituto Distrital de Cultura y Turismo, Sistema Distrital de Cultura.',
+        'CEPAL. (2018). Panorama Social de América Latina. Comisión Económica para América Latina y el Caribe.',
       link: '',
     },
     {
       referencia:
-        'Cibanal, L. (2002). Genograma familiar. Apuntes: introducción a la sistémica y terapia familiar. Nicanor Aniorte. ',
-      link: 'http://www.aniorte-nic.net/apunt_terap_famil_8.htm ',
-    },
-    {
-      referencia:
-        'Clemente, M. (2003). Redes sociales de apoyo en relación al proceso de envejecimiento humano. Revisión bibliográfica. Interdisciplinaria. Revista de Psicología y Ciencias Afines, 20(1), p. 31-60.',
+        'ICBF. (2019). Guía para el registro de las variables de discapacidad en los sistemas de información del ICBF. Bogotá, D.C.',
       link: '',
     },
     {
       referencia:
-        'Durrant, J. (2011). Positive discipline. What is and How to do it? Save the Children Sweden.',
+        'ICBF. (2021). Guía de Articulación entre las direcciones de Protección y Familias y Comunidades. Bogotá.',
       link: '',
     },
     {
       referencia:
-        'Farkas-Klein, C. (2008). Escala de evaluación parental (EEP): desarrollo, propiedades psicométricas y aplicaciones. Universitas Psychologica, p. 457-467.',
+        'ICBF. (2021). Guía de articulación entre las direcciones de protección y familias y comunidades modalidad mi familia. 55. Colombia.',
       link: '',
     },
     {
       referencia:
-        'Feixas, G., Muñoz, D. y Montesano, A. (2012). El genograma en terapia familiar sistémica. Universidad de Barcelona, Departament de Personalitat, Avaluació i Tractament Psicològics.',
+        'ICBF. (2021). Guía de focalización y microfocalización modalidad Mi Familia. Bogotá, D.C.: ICBF.',
       link: '',
     },
     {
       referencia:
-        'Fernández, J., Escalante, E. & Palmero, F. (2011). Revisitando algunas herramientas de evaluación sistémica. Psicoperspectivas, Individuo y Sociedad, 10(1), p. 190-208.',
+        'ICBF. (2021).. Lineamiento Técnico Modalidad Mi Familia, 48. Bogotá, Colombia. Obtenido de',
+      link: 'https://www.icbf.gov.co/misionales/promocion-y-prevencion/familia',
+    },
+    {
+      referencia:
+        'ICBF. (2022). Guía de Orientaciones Metodológicas Mi Familia. Guía de Orientaciones Metodológicas Mi Familia.',
+      link: '',
+    },
+    {
+      referencia: 'ICBF. (2022). Manual Operativo Mi Familia. Colombia.',
       link: '',
     },
     {
       referencia:
-        'Gómez, E. y Klotiarenco, M. (2010). Resiliencia familiar: un enfoque de investigación e intervención con familias multiproblemáticas. Revista de Psicología de la Universidad de Chile, 19(2), p. 103-132. ',
-      link:
-        'https://revistapsicologia.uchile.cl/index.php/RDP/article/view/17112',
-    },
-    {
-      referencia:
-        'Gómez, O. y Calleja, N. (2016). Regulación emocional: definición, red nomológica y medición. Revista Mexicana de Investigación en Psicología, p. 96-117. ICBF. (2020). Lineamiento técnico Mi familia. ICBF. ',
-      link:
-        'https://www.icbf.gov.co/system/files/procesos/lm10.pp_lineamiento_tecnico_administrativo_modalidad_mi_familia_v2.pdf',
-    },
-    {
-      referencia:
-        'ICBF. (2009). Lineamientos técnicos para la inclusión y atención de familias. ICBF. ',
-      link: '',
-    },
-    {
-      referencia: 'ICBF. (2020). Manual operativo Mi familia. ICBF.',
-      link:
-        'https://www.icbf.gov.co/system/files/procesos/mo18.pp_manual_operativo_modalidad_mi_familia_v4.pdf',
-    },
-    {
-      referencia:
-        'ICBF y MEN. (2009). Promoción de la resiliencia familiar. Tejiendo vínculos. Manual de agentes educativos. Organización Internacional para las Migraciones (OIM).',
+        'ICBF. (2022). Guía de Orientaciones Metodológicas Mi Familia.',
       link: '',
     },
     {
       referencia:
-        'Orpinas, P., Rico, A. & Martínez-Cox, L. (2012). Latino families and youth: a compendium of assessment tools. University of Georgia.',
-      link: '',
-    },
-    {
-      referencia:
-        'Pérez-Abarca, R., Lucchini-Raies, C. & Márquez-Doren, F. (2020). Paternidades, vinculación afectiva y promoción de la salud mental infantil: percepciones de madres y padres de lactantes mayores de un año. Revista Chilena de Enfermería - RchE. ',
-      link:
-        'https://revistachilenaenfermeria.uchile.cl/index.php/RCHE/article/view/58236',
-    },
-    {
-      referencia:
-        'Pérez, T. (2017). El enfoque apreciativo, valiosa herramienta para construir cultura de paz. Revista de la Universidad de La Salle (72), p. 137-158. ',
-      link:
-        'https://ciencia.lasalle.edu.co/cgi/viewcontent.cgi?article=1522&context=ruls ',
-    },
-    {
-      referencia:
-        'Romero, F. (2007). La construcción social de la parentalidad y los procesos de vinculación y desvinculación padre - hijo. El papel del mediador familiar. Ciencias Psicológicas, (2), p. 119-133.',
+        'UNESCO. (2005). Convención sobre la protección y la promoción de la diversidad de las expresiones culturales',
       link: '',
     },
   ],
@@ -416,18 +315,18 @@ export default {
       },
       {
         nombre: 'Miroslava González Hernández',
-        cargo: 'Diseñadora instruccional',
+        cargo: 'Diseñadora y evaluadora instruccional',
         centro:
           'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
       },
       {
-        nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Asesor metodológico',
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Asesora metodológica',
         centro: 'Regional Distrito Capital - Centro de Diseño y metrología',
       },
       {
-        nombre: 'Julia Isabel Roberto',
-        cargo: 'Correctora de estilo',
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Corrector de estilo',
         centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
       },
     ],
@@ -439,7 +338,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Antonio Vecino Valero',
+        nombre: 'María Natalia Maldonado Delgado',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -456,7 +355,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Miguel Guerrero Gutiérrez ',
+        nombre: 'Estefani Daniela Gallo Cortés',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Yeimmy Bibiana Barrera Maldonado',
         cargo: 'Ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
@@ -480,13 +385,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Erika Viviana Sandoval Rojas',
+        nombre: 'Ernesto Navarro Jaimes ',
         cargo: 'Producción audiovisual ',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Laura Ximena Hurtado Villalba ',
+        nombre: 'Mary Jeans Palacio Camacho',
         cargo: 'Producción audiovisual ',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

@@ -257,6 +257,16 @@
   border-radius: 10px
   &:hover
     background-color: #F57676
+
+.bg16
+  background-color: #F57676
+  border-radius: 15px
+  height: 466px
+
+.bg17
+  background-color: #FFDE85
+  border-radius: 15px
+  height: 466px
    
 .img90
   max-width: 75px !important
@@ -321,7 +331,7 @@
   background-position: center  
 
 .tarjeta-flip.color-secundario .tarjeta-flip__contenido
-  height: 457px
+  height: 357px
 
 .tarjeta-flip.color-secundario1 .tarjeta-flip__contenido
   height: 400px
@@ -346,8 +356,8 @@
 
 
 .bloque-texto-d:before 
-  top: 36%
-  left: 36%
+  top: 59%
+  left: 14%
 
 .bloque-texto-f.color-secundario:before 
     background-color: #FFF6DD
@@ -518,3 +528,160 @@
 
 .tabs-a.color-acento-botones .tabs-a__tab__selected 
     color: #FFFFFF
+
+.color_img-tab
+  .tabs-b__tab
+    img
+      filter: grayscale(1)
+  .tabs-b__tab.tabs-b__tab--active
+    img 
+      filter: grayscale(0)
+
+.horizontal-scroll
+  align-items: stretch !important
+  padding-top: 2rem
+  padding-bottom: 2rem
+
+.m_bloque
+  .bloque-texto-g__texto
+    width: 71%
+    left: 1%
+    @media (max-width: $bp-max-md)
+      width: 100%
+      left: 0%
+
+.bloque-texto-a.color-secundario:before 
+    background-image: url("../assets/curso/tema2/img20.png")!important
+    background-repeat: no-repeat
+    height: 290px
+    width: 400px
+    left: 56%
+
+.bloque-texto-a.color-secundario 
+    background-color: #FFD357
+    height: 290px
+    width: 804px
+
+.bloque-texto-a__texto
+  width: 484px
+
+.bloque-texto-g.color-primario
+  background-color: #FFD357!important
+
+.bg_1
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: -6%
+    right: 0
+    width: 23%
+    height: 100%
+    background-color: #FFF2D0
+    @media (max-width: $bp-max-md)
+      background-size: cover
+      top: -6%
+      left: 0
+      width: 30%
+      height: 97%
+.bg_2
+  background-color: #D6FFE3
+  border: 2px solid #71ED99
+  border-radius: 10px
+.bg_3
+  background-color: #FFFAEB
+.bg_4
+  background-color: #FDE395
+.bg_5
+  background-color: #FFF0C4
+  img
+    filter: grayscale(1)
+  &:hover
+    background-color: #F57676
+    img
+      filter: grayscale(0) 
+.bg_6
+  background-color: #AFFBD8
+.bg_7
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 3rem
+    top: -16%
+    right: -13%
+    width: calc(100% + 10rem )
+    height: calc(100% + 2rem )
+    background-color: #FFF0C4
+    @media (max-width: $bp-max-md)
+      top: -6%
+      right: -16%
+      width: calc(100% + 7rem)
+      height: calc(100% + 1rem)
+.bg_8
+  position: relative
+  h5, p, .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 3rem
+    top: -30%
+    right: -13%
+    width: calc(100% + 10rem )
+    height: calc(100% + 2rem )
+    background-color: #AFFBD8
+    @media (max-width: $bp-max-md)
+      top: -6%
+      right: -16%
+      width: calc(100% + 7rem)
+      height: calc(100% + 1rem)
+.bg_9
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 4%
+    right: 6%
+    width: 68%
+    height: 92%
+    background-color: #FCD9D9
+    border-bottom-right-radius: 50px
+    @media (max-width: $bp-max-lg)
+      top: -2%
+      height: calc(100% + 1rem)
+    @media (max-width: $bp-max-md)
+      top: 59%
+      left: -5%
+      width: 109%
+      height: 46%
+    @media (max-width: $bp-max-xs)
+      top: 48%
+      left: -5%
+      width: 109%
+      height: 55%
+.bg_10
+  background-color: #FFF0C4
+  &:hover
+    background-color: #F57676
+.colr
+  color: $color-sistema-texto !important
+
+.horizontal-scroll
+  align-items: stretch !important
+.bloque-texto-g__img
+  width: 37%
+  @media (max-width: $bp-max-md)
+    width: 100%    
+.bloque-texto-g__texto
+  width: 73%
+  @media (max-width: $bp-max-md)
+    width: 100% 

@@ -142,7 +142,7 @@
                     .row
                       .col-12
                         figure
-                          img(src='@/assets/curso/tema2/img8.png', style="width: 900px").m-auto
+                          img(src='@/assets/curso/tema2/img8.jpg', style="width: 900px").m-auto
     Separador
     #t_2_3
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -155,8 +155,8 @@
         p Para el desarrollo adecuado del acompañamiento psicosocial a las familias beneficiarias, se debe construir un Plan Familiar, el cual que se refiere a un acuerdo entre el profesional y las familias entorno al proceso que llevará la familia como beneficiaria de la modalidad, el cual se centra en la definición del abordaje a la familia con el apoyo de las temáticas que guiarán las sesiones del acompañamiento. 
         p El Plan Familiar se construye de acuerdo con el tipo de acompañamiento, los resultados de los instrumentos de caracterización y diagnóstico, la observación y aportes del profesional de acompañamiento, y las necesidades, intereses, expectativas y/o situaciones emergentes en las familias. Cuando termina el acompañamiento, se realiza una sesión de cierre donde aplican nuevamente los Instrumentos de habilidades, lo cual permitirá conocer una aproximación a los resultados del proceso con cada una de las familias. (ICBF, 2022, p. 47).
 
-    .bg1.p-2
-      .row.align-items-center.p-3.mb-5
+    .bg1.p-2.mb-5
+      .row.align-items-center.p-3
         .col-lg-auto
           figure
             img.mb-3(src='@/assets/curso/tema2/img8.svg', style="width: 80px").m-auto
@@ -173,9 +173,9 @@
             .row.align-items-center
               .col-lg-auto
                 figure
-                  img(src='@/assets/curso/tema2/img10.svg', style="width: 70px").m-auto
+                  img.mb-3(src='@/assets/curso/tema2/img10.svg', style="width: 70px").m-auto
               .col-lg-12
-                p.mb-0 Existen muchos tipos de <em>buyer</em> persona, los cuales se pueden catalogar en tres categorías principales, especialmente perceptibles hacia el final del proceso de la toma de decisiones. Aunque el <em>buyer</em> persona no siempre es la persona que se encarga de tomar la decisión de compra del producto, sí juega un papel vital motivándolo.
+                p.mb-0 Para efectos del acompañamiento, el PAF y la familia tendrán un cuaderno o diario del proceso que queda en poder de la familia denominado Plan Familiar, donde se precisan los énfasis que resultan del interés de la familia para cada sesión del ciclo básico, así mismo, se identificará junto con el PAF las temáticas a trabajar en el ciclo de profundización y se registra el proceso de acompañamiento que se desarrolla durante la atención y cierre. Este cuadernillo, busca ser personalizado por la familia a partir de actividades como pintura, dibujos, fotografías, etc.
     p.mb-5 En este Plan Familiar se encuentra el cronograma de visitas y encuentros, donde la familia consigna la fecha y hora acordadas para cada visita o encuentro; espacios para la elaboración del genograma y ecomapa o mapa de pertenencia (actual y potencial), que hace parte del proceso de caracterización y diagnóstico; presenta también infografías sobre los temas abordados como insumo para las sesiones con el PAF o para análisis y revisión por parte de las familias de manera autónoma e incluye apartados para consignar los aprendizajes y compromisos de cada sesión. Adicionalmente, permite a la familia precisar información sobre los procesos de convergencia de oferta y gestión de redes que desarrolla con apoyo del talento humano del operador de la modalidad. (ICBF, 2022, p. 49).          
     Separador
     #t_2_4
@@ -219,262 +219,111 @@
       h2 2.5 Encuentros familiares y comunitarios
     .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-7(data-aos="fade-left")
-        p El ecomapa le permite a cada integrante y a la familia en general identificar su grado de satisfacción, de cercanía y vinculación con una red, así como establecer potencialidades o situaciones problemáticas. Con ese nivel de satisfacción o de insatisfacción, la persona, la familia y los profesionales pueden identificar acciones posibles para ampliarla, modificar vínculos y resolver las situaciones problemáticas en cada área.
-        p Para conocer las redes de las familias beneficiarias de la oferta Mi familia se propone el uso del ecomapa. Este instrumento permite identificar de forma rápida el estado en términos relacionales de la familia, tanto al interior (relaciones filiales y afectivas) como con actores externos, ya sean formales o informales, tales como el deporte, el colegio, los amigos o el empleo. 
+        p Son una forma de intervención psicosocial para brindar acompañamiento a las familias en su entorno comunitario, donde se busca observar y comprender las interacciones de los individuos y su sistema familiar en sus contextos cotidianos. Estos encuentros tienen como propósito identificar y promover recursos y potencialidades en las familias a fin de lograr el reconocimiento, resignificación, resolución y abordaje de situaciones que obstaculizan o facilitan el desarrollo integral del grupo familiar, y promover cambios que contribuyan a la protección integral de los NNA, a partir del encuentro con varias familias con experiencias e historias similares. (ICBF, 2022, p. 13).
+        p Los encuentros familiares y comunitarios son de dos tipos:
       .col-lg-5.mb-4.mb-lg-0
         figure
-          img.img-t(src='@/assets/curso/tema2/img31.png').m-auto
+          img.img-t(src='@/assets/curso/tema2/img9.png').m-auto
+    TabsB.color-acento-contenido.mb-5.color_img-tab(data-aos="zoom-in-down")
+      .py-4.py-md-5(titulo="Encuentros familiares inclusivos" :icono="require('@/assets/curso/tema2/img12.svg')")
+        .row
+          .col-lg-5
+            figure
+              img.img-t.m-auto(src='@/assets/curso/tema2/img14.png', alt='Texto que describa la imagen')
+          .col-lg-7.mb-4.mb-lg-0
+            h4 Encuentros familiares inclusivos
+            p Están diseñados para que participen las familias con necesidades de acompañamiento familiar preventivo, familias con necesidades de acompañamiento familiar intensivo y, familias con niños, niñas y adolescentes con discapacidad o PcD. Su objetivo es la sensibilización y concienciación, que conlleve al fortalecimiento de capacidades de las familias y la inclusión efectiva de niños, niñas, adolescentes y otros integrantes con discapacidad en los entornos sociales.    
+      
+      .py-4.py-md-5(titulo="Encuentros diferenciales de discapacidad" :icono="require('@/assets/curso/tema2/img14.svg')")
+        .row
+          .col-lg-5
+            figure
+              img.img-t.m-auto(src='@/assets/curso/tema2/img15.png', alt='Texto que describa la imagen')  
+          .col-lg-7.mb-4.mb-lg-0
+            h4 Encuentros diferenciales de discapacidad
+            p Están diseñados para que participen las familias con niños, niñas y adolescentes con discapacidad o PcD y su objetivo es reunir en un solo espacio a los cuidadores o las cuidadoras con los niños, niñas y adolescentes con discapacidad o PcD de la familia para generar aprendizajes significativos que les permita reconocer y abordar situaciones que obstaculicen su desarrollo y el de cada uno de sus integrantes, promoviendo cambios que contribuyan a la protección integral de los niños, niñas y adolescentes con discapacidad o PcD, así como, la activación de redes de apoyo. 
+    p.mb-5 Si bien la situación familiar que ha acompañado el desarrollo de este módulo no posee características de tipo rural o comunitario, se invita a considerar que en algún momento se deberá realizar una intervención colectiva comunitaria que pueda maximizar las capacidades familiares en este sentido, por ello el PAF deberá adaptar las actividades y metodologías a los contextos a donde llegue la modalidad y a la tipología de familias con las que se encuentre.
     .bg9.p-2.mb-5
       .row.align-items-center.p-3
         .col-lg-auto
           figure
-            img.mb-3(src='@/assets/curso/tema2/img32.svg', style="width: 80px").m-auto
+            img.mb-3(src='@/assets/curso/tema2/img15.svg', style="width: 80px").m-auto
         .col-lg.mb-4.mb-lg-0
-          p.mb-0 Debido a que es la extensión o complemento del genograma, también muestra las relaciones de la familia, lo que permite al profesional de acompañamiento trazar una ruta de acción más cercana a las realidades de la familia, de acuerdo con su propio desarrollo y la relación o construcción con su territorio. En este sentido, el concepto de territorio no solo obedece a la idea de un área física delimitada, habitada y usada, sino que es producto de las relaciones sociales entre lo que se considera personas en cada una de las sociedades, y entre estas y su entorno (Ardila, 2006).
-    .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
-      .col-lg-4.mb-4.mb-lg-0
-        figure
-          img.img-t(src='@/assets/curso/tema2/img33.png').m-auto
-      .col-lg-8(data-aos="fade-left")
-        p El ecomapa puede ser construido por cada integrante de manera autónoma o en conjunto con el PAF en una conversación en la cual, además, se construya el sentido de cada relación y la posibilidad de enriquecerla en el futuro inmediato. Se solicita a la persona o a la familia que represente en el gráfico a las personas de su red social en un momento concreto, según se defina por parte del profesional para el desarrollo de la intervención.
-        p En la construcción del ecomapa se hace necesario registrar todos los actores con los que la familia tiene relación, incluyendo los que de alguna forma generen procesos de estrés o malestar (grupos armados, venta de sustancias psicoactivas, vertederos de aguas negras, entre otros), con el fin de identificar estos actores y buscar formas de protección de la familia con estrategias individuales o comunitarias que minimicen los riesgos que estos pueden generar para las familias y las comunidades.
-    .bg13
-      .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
-        .col-lg-11(data-aos="fade-left")
-          p Teniendo en cuenta lo anterior, cobra relevancia el papel del gestor de oferta y del profesional de acompañamiento familiar, ya que son los encargados de realizar el análisis de las redes a las que pertenece la familia y su relación con estas, así como de identificar que otras redes existen en el territorio, además de ayudar a gestionar situaciones que estén presentes en la familia que no sean generativas.
-        .col-lg-1.mb-4.mb-lg-0
-          figure
-            img.img-t(src='@/assets/curso/tema2/img34.svg').mx-auto
-    .row.mb-5
-      .col-12.p-5
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema2/img35.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 Es importante que estos dos profesionales estén en constante comunicación y tengan claridad que no todas las familias deben estar en las mismas redes, ya que su aporte o no, depende de las dinámicas familiares y comunitarias. Ahora bien, para valorar, identificar acciones de intervención y realizar seguimiento es necesario que tanto el profesional de acompañamiento como el gestor de oferta registren la información en los formatos y sistemas de información que disponga el ICBF para tal fin. <br><br> Por lo anterior, en el aplicativo Mi familia se definieron las siguientes variables que se deben recoger en conversación con la familia y, como resultado de la elaboración del ecomapa lo siguiente:
-    .row.justify-content-center.mb-5
-      .col-lg-10.col-xl-8
-        figure
-          img(src='@/assets/curso/tema2/img36.svg').mb-3
-    p.mb-5 Es importante tener presente que estos elementos deberán ser de especial atención por parte del profesional y del gestor para movilizar el componente de convergencia de oferta, gestión de redes y realizar los reportes en el seguimiento al componente. 
+          p.mb-0 Es importante tener presente que los encuentros pueden tener una connotación especial, dado por algunas características particulares de las familias, entre ellas que alguno de sus integrantes se encuentre en condición de discapacidad, en ese sentido, el encuentro se denominará Inclusivo. Este tipo de encuentros están diseñados con el objetivo de sensibilizar sobre las acciones que apunten al fortalecimiento de capacidades de las familias y la inclusión efectiva de las personas con discapacidad en los entornos sociales (ICBF, 2022, p. 71).
+   
     Separador
-    #t_2_5 
+    #t_2_6 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.5 Instrumentos de medición de habilidades
-    .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
-      .col-lg-4.mb-4.mb-lg-0
-        figure
-          img.img-t(src='@/assets/curso/tema2/img37.png').m-auto
-      .col-lg-8(data-aos="fade-left")
-        p Para complementar la información que se recoge a través de la ficha sociofamiliar, el genograma y el ecomapa, el programa Mi familia incorpora cuatro instrumentos que permiten medir habilidades relevantes en la vida familiar y que se relacionan con los objetivos que busca el programa. Estos instrumentos son la autoeficacia parental, la disciplina positiva, la regulación emocional y la vinculación.
-        p Estos instrumentos se seleccionaron luego de una amplia revisión y tienen en común que han sido validados a través de estudios e investigación. A continuación se presenta el valor que tienen estos:
-    .row.justify-content-center.align-items-center.mb-5          
-      .col-lg-12.py-4
-        .tarjeta--azul1.p-4.p-md-5
-          SlyderA(tipo="b").color_slyder-a_botones
-            .row.justify-content-center.align-items-center        
-              .col-lg-6.mb-4.mb-md-0
-                h4.mb-4 Perfiles o patrones
-                p Proporcionan información adicional al PAF y a la familia, dado que proveen algunos perfiles o patrones en relación con las habilidades de interés, que permitirán realizar una conversación acerca de las razones por las cuales la familia obtuvo un determinado resultado, lo que piensa de esa información y las posibles transformaciones.
-              .col-lg-6
-                img.img-t(src='@/assets/curso/tema2/img38.png', alt='') 
-            .row.justify-content-center.align-items-center              
-              .col-lg-6.mb-4.mb-md-0
-                h4.mb-4 Hipótesis de trabajo
-                p Dicha información le permite al PAF y a la familia conocer el estado inicial en relación con estos temas para generar hipótesis de trabajo e identificar énfasis para las sesiones del ciclo básico y seleccionar las temáticas para las sesiones de profundización. Al PAF, en particular, le ayuda a orientar el acompañamiento psicosocial y a guiar el abordaje general de la atención.
-              .col-lg-6
-                img.img-t(src='@/assets/curso/tema2/img39.png', alt='')
-            .row.justify-content-center.align-items-center             
-              .col-lg-6.mb-4.mb-md-0
-                h4.mb-4 Avances
-                p Estos instrumentos se aplican al inicio y al final del acompañamiento como aproximación a los resultados del mismo, igualmente, establecen los avances de las familias y la autopercepción sobre sus avances, de tal manera que puedan visualizarlos de manera complementaria a través de la información que arrojan este tipo de instrumentos.
-              .col-lg-6
-                img.img-t(src='@/assets/curso/tema2/img40.png', alt='')
-    .bg9.p-2.mb-5
-      .row.align-items-center.p-3
-        .col-lg-auto
-          figure
-            img.mb-3(src='@/assets/curso/tema2/img5.svg', style="width: 80px").m-auto
-        .col-lg.mb-4.mb-lg-0
-          p.mb-0 Ahora, se presenta para cada instrumento la definición de la habilidad o aspecto que pretende medir, por qué es importante para el fortalecimiento familiar, a quiénes se aplica y una descripción general del mismo:
-    .row.justify-content-center.align-items-center.mb-5     
-      .col-lg-12(data-aos="fade-right")
-        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul4")
-          .row.align-items-center(titulo="Autoeficacia parental")   
-            .col-lg-9.my-3.mb-4.mb-md-0
-              p Se refiere a la percepción que tienen las personas sobre su propia capacidad para desempeñarse como buenos padres o madres, y se ve afectada por distintos factores como el conocimiento que tenga el padre o la madre sobre prácticas de crianza, el acceso a información que le ayude a entender las necesidades de su hijo o hija en cada momento de su desarrollo, entre otros.
-              p <b>Es necesario tener en cuenta que el instrumento de eficacia parental tiene 17 preguntas y se compone de dos subescalas: la de autoeficacia y la de satisfacción.</b> La primera corresponde a una dimensión instrumental que refleja la competencia, la capacidad de resolución de problemas y la capacidad en el papel de los padres y las madres, mientras que la segunda es una dimensión afectiva que refleja la frustración, la ansiedad y la motivación de los padres. Dentro de las 17 preguntas, 8 se dirigen a medir la satisfacción y 9 la autoeficacia, y en todas ellas la persona tiene 6 opciones de respuesta que son: totalmente en desacuerdo, bastante en desacuerdo, en desacuerdo, de acuerdo, bastante de acuerdo y totalmente de acuerdo.
-            .col-lg-3.my-3 
-              img.img-a.img-t(src='@/assets/curso/tema2/img6.svg', alt='')  
-            p <b>Este instrumento es de autoreporte, está dirigido a los padres y las madres de los NNA del grupo familiar. Esta relación de parentesco puede ser biológica, jurídica o de crianza. </b>
-          .row.align-items-center(titulo="Disciplina positiva ")   
-            .col-lg-9.my-3.mb-4.mb-md-0
-              p La disciplina positiva o crianza respetuosa se puede considerar como una forma no violenta y respetuosa de interactuar con los niños, las niñas y los adolescentes. Es una manera de aproximación que le permite a los padres y las madres ayudar, enseñar, orientar y relacionarse con los NNA de forma que puedan tener el apoyo y la información necesaria para su desarrollo (Durrant, 2011). Estas formas de aproximarse se pueden analizar a través de las prácticas que los padres aplican para interactuar en la crianza de sus hijos. 
-              p En palabras simples, “disciplina” significa “enseñar”. La disciplina positiva es la forma más amorosa de enseñanza. Involucra la crianza, confianza, conexión, habilidades para compartir, y crear un ambiente donde los niños puedan desarrollar sus capacidades y confianza. La disciplina positiva está soportada sobre la enseñanza, entendimiento, motivación y comunicación, no en el castigo. El castigo busca que los niños y las niñas “paguen” por lo que han hecho. La disciplina está diseñada para ayudar a los niños y las niñas a aprender de lo que han hecho (Nelsen, Erwin y Duffy, 2015). 
-            .col-lg-3.my-3 
-              img.img-a.img-t(src='@/assets/curso/tema2/img43.png', alt='')  
-            p <b>El instrumento cuenta con 29 afirmaciones que miden 5 prácticas específicas: parentalidad positiva (6 afirmaciones); involucramiento parental (10 afirmaciones); bajo monitoreo o supervisión (10 afirmaciones); y castigo físico (3 afirmaciones). Este instrumento de autoreporte es multifuente, es decir, está dirigido a los padres, las madres o a quien ejerza este rol y a los adolescentes entre los 12 y los 17 años, con el objetivo de obtener una perspectiva bidimensional de las prácticas parentales.</b>
-          .row.align-items-center(titulo="Regulación emocional")     
-            .col-lg-9.my-3.mb-4.mb-md-0
-              p Para entender el concepto de regulación emocional es necesario partir de la noción de emoción que, de acuerdo con Gómez y Calleja (2016), se puede entender como “una respuesta del individuo ante los estímulos del entorno que coordina diferentes sistemas y tiene como objetivo proporcionar información para influir en él según sus necesidades” (p. 97). Además, son ‘respuestas inteligentes’ que se construyen racionalmente (Naussbaum, 2001) y, por esa razón, “independientemente de la perspectiva desde la que se aborde el concepto, es considerada como una de las variables psicológicas de más impacto en la vida de los individuos, ya que determina el comportamiento en gran medida” (Gómez y Calleja, 2016, p. 98).
-              p El reconocimiento de las emociones y la regulación emocional se ha considerado un aspecto fundamental del desarrollo individual y familiar dada su relación con la autoestima y la satisfacción con la vida, la inteligencia emocional, la competencia social, la personalidad, el temperamento, los procesos de aprendizaje, el desempeño académico, el desempeño laboral, entre otros.
-            .col-lg-3.my-3 
-              img.img-a.img-t(src='@/assets/curso/tema2/img44.png', alt='') 
-            p <b>Este instrumento se aplica a quienes en la familia cumplan el rol de padres, madres o a los cuidadores (cuando no estén presentes el padre o la madre), a los niños, las niñas y los adolescentes entre 12 y 17 años.</b>
-          .row.align-items-center(titulo="Vinculación")     
-            .col-lg-9.my-3.mb-4.mb-md-0
-              p El vínculo supone la sensibilidad con las capacidades del otro y no solo con sus necesidades. Supone conocimiento y respeto por las aspiraciones del otro. Implica la comprensión de las dificultades del otro según como este las vive y no según como se perciben desde fuera. De esta manera, los vínculos afectivos permiten que las personas que los desarrollan se sientan parte significativa del colectivo (ICBF y MEN, 2009).
-              p Por tanto, la vinculación es un proceso psicoemocional donde interactúan las madres y los padres con sus hijas e hijos, que permite que reconozcan su entorno e influye en las áreas psicológicas, física, cognitiva, social y emocional, así como en el mejoramiento de su confianza y resiliencia contribuyendo a un desarrollo cerebral sano (Pérez-Abarca, Lucchini-Raies, & Márquez-Doren, 2020). 
-            .col-lg-3.my-3 
-              img.img-a.img-t(src='@/assets/curso/tema2/img45.png', alt='') 
-            p <b>El instrumento de vinculación del programa Mi familia contempla dos subescalas, cariño y hostilidad. La primera hace referencia al relacionamiento con el otro mediante acciones y muestras de simpatía, apego, amistad y amor; mientras que la subescala de hostilidad da cuenta de las acciones agresivas o adversas entre las personas. Este instrumento incluye en total doce ítems y se aplica a los niños, las niñas y los adolescentes entre 12 y 17 años que hagan parte de la familia que recibe el acompañamiento.</b>
-    .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
-      .col-lg-4.mb-4.mb-lg-0
-        figure
-          img.img-t(src='@/assets/curso/tema2/img46.svg').m-auto
-      .col-lg-8(data-aos="fade-left")
-        p Cabe decir de manera adicional que en la autoeficacia parental la confianza de los padres y las madres en sus propias capacidades los hacen sentir más satisfechos, motivados y tener mayor tolerancia frente a la frustración (Farkas-Klein, 2008). Lo anterior, se relaciona con la actitud con la que las madres y los padres afrontan las responsabilidades de cuidado y crianza de sus hijos e hijas y en su capacidad para ofrecerles un entorno físico y psicológico de calidad.
-        p También en la disciplina positiva, según Kuppens & Ceulemans (2018) las prácticas parentales juegan un rol importante en el desarrollo de la capacidad de autorregulación emocional de los niños, las niñas y los adolescentes, es decir, con la habilidad para entender sus emociones y la de los demás y adaptar su comportamiento a la demanda del entorno (p. 168).
-    p De hecho, Dennis (2006) y Forst, Worthman y Reifel (2008) muestran que la calidad de las emociones que se involucran en la relación padres e hijos influye en la capacidad de los NNA de regular sus emociones, mostrando efectos negativos entre la exposición de reacciones adversas con ansiedad, depresión, tristeza, nerviosismo y rabia (Clark & Watson, 1991). Esto quiere decir que entre mayor involucramiento tengan los padres y las madres con los hijos e hijas, los NNA tendrán un manejo más asertivo de sus emociones y las formas en que expresan estas a las demás personas, brindándoles la posibilidad de aumentar sus habilidades sociales.
-    p Para medir prácticas parentales Mi familia utiliza la adaptación en español de la escala de Alabama Parenting Questionnaire (Orpinas, Rico & Martínez-Cox, 2012).
-    .row.mb-5
-      .col-12.p-5
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema2/img47.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 La emoción (en la regulación emocional), entonces, es considerada como una de las variables psicológicas de más impacto en la vida de los individuos, ya que determina el comportamiento en gran medida. En relación con lo anterior, la regulación emocional se describe como el proceso a través del cual los individuos toman decisiones sobre sus emociones, influenciándolas para experimentar aquellas que les permitan alcanzar metas tanto personales como sociales. Los mecanismos de influencia a través de los cuales se modifican las emociones son denominados estrategias de regulación emocional.
-    .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
-      .col-lg-7(data-aos="fade-left")
-        p Finalmente, el vínculo es una “relación, conexión, red de solidaridad y afectos” (ICBF, MEN, 2009, p. 44) que se puede desarrollar con personas, uno mismo, un grupo de individuos, como la familia o la comunidad, el lugar donde se vive o el tiempo en el que se vive (historia). Específicamente, los vínculos se entienden como aquellas relaciones que existen entre las personas, van más allá de los lazos de parentesco que se tengan, ya que representan la unión indispensable que le da soporte y equilibrio a las decisiones y situaciones que se presentan en el curso de la vida de un individuo (ICBF, 2017).
-        p Los niños y las niñas requieren un modelo materno y paterno para formar su yo, para consolidar su identidad, para desarrollar sus ideales y aspiraciones (Romero, 2007). Por tanto, lograr la vinculación del padre y la madre toma mayor relevancia para promover el desarrollo integral de los NNA. Cuando los niños, las niñas y los adolescentes se sienten reconocidos, queridos y valorados por sus padres, son capaces de integrar normas y seguridad en proyectos personales coherentes. 
-      .col-lg-5.mb-4.mb-lg-0
-        figure
-          img.img-t(src='@/assets/curso/tema2/img48.png').m-auto
-    .row.justify-content-center.align-items-center.mb-5          
-      .col-lg-10
-        .bg12
-          .tarjeta.position-relative.rounded-0.p-4(data-aos="flip-down")
-            .row.justify-content-center.align-items-center
-              .col-lg-4
-                .imagen-absolute4
-                  img.img-t.mx-auto(data-aos="zoom-in")(src='@/assets/curso/tema2/img49.svg', alt='')
-              .col-lg-8.my-3
-                p(data-aos="fade-down") Por otra parte, los vínculos entre padres, madres, niños, niñas y adolescentes son fundamentales en la medida en que permiten “consolidar relaciones protectoras y de cuidado para contribuir al desarrollo afectivo, social y cognitivo de aquellos que están en proceso de formación desde sus primeras etapas de vida, además, los vínculos afectivos serán la base para el establecimiento de relaciones futuras” (ICBF, 2017, p. 9).
-    .bg13
+      h2 2.6 Convergencia de oferta y gestión de redes
+
+    .bg2
       .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-11(data-aos="fade-left")
-          p En conclusión, estos instrumentos le permiten a los PAF identificar cuáles son las principales fortalezas con las que cuenta la familia para afrontar situaciones de crisis, constituirse en sistemas resilientes y habilidades que requieren fortalecimiento, en especial aquellas que pueden suponer riesgos para el desarrollo familiar y personal de cada uno de los miembros de la familia, en especial de los niños, las niñas y los adolescentes.
+          p Dentro del acompañamiento psicosocial familiar, la modalidad Mi Familia, considera el desarrollo del componente de convergencia de oferta y gestión de redes a partir de las definiciones del ICBF (2021).
         .col-lg-1.mb-4.mb-lg-0
           figure
-            img.img-t(src='@/assets/curso/tema2/img50.svg').mx-auto
+            img.img-t(src='@/assets/curso/tema1/img4.svg').mx-auto
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4.col-lg.my-2.my-lg-0.m-0.m-lg-2
+        .row.bg16
+          .col.p-4.h-100
+            figure.mb-2.mb-lg-3
+              img(src='@/assets/curso/tema2/img17.svg', style="width: 115px").m-auto
+            p <b>Convergencia de oferta</b>
+            p Considera el desarrollo de acciones para la garantía de derechos de las familias y sus integrantes a partir de la identificación, socialización, remisión, activación efectiva y seguimiento a la oferta de servicios de entidades tanto públicas como privadas de los departamentos, municipios y/o territorios de atención de la modalidad.
+      .col-lg-4.col-lg.my-2.my-lg-0.m-0.m-lg-2
+        .row.bg17
+          .col.p-4.h-100
+            figure.mb-2.mb-lg-3
+              img(src='@/assets/curso/tema2/img18.svg', style="width: 115px").m-auto
+            p <b>Gestión de redes</b>
+            p Se entiende como las acciones destinadas a identificar, fortalecer y promover la participación en redes de apoyo sociales o comunitarias para identificar y fortalecer acciones y estrategias de protección, prevención y atención ante situaciones de dificultad, necesidad o que faciliten el logro de condiciones deseadas para mejorar la calidad de vida personal y familiar en los entornos en que habitan.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7(data-aos="fade-left")
+        p Lo anterior implica que, desde el inicio de la implementación de la modalidad, se deba procurar por un acceso preferente de las familias (particularmente a familias con alta vulnerabilidad o con niños, niñas y adolescentes en servicios de protección (PARD- SRPA)) a la oferta de servicios tanto de programas sociales del Estado como de iniciativas privadas con cobertura nacional y territorial.
+        p Todo lo anterior se considera fundamental para el fortalecimiento de capacidades, así como la gestión de redes de apoyo para generación de capital social, construcción de vínculos colectivos, participación, apoyo social y control ciudadano, factores que deben potenciarse mientras se desarrolle el acompañamiento.
+
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+        .bloque-texto-d.color-acento-contenido.p-2
+          .bloque-texto-d__texto.mb-2
+            i.fas.fa-quote-left
+            p En este marco la inclusión cobra relevancia en el sentido que la modalidad Mi Familia considera la adopción de medidas diferenciadas que favorezcan a grupos poblacionales históricamente vulnerados por condiciones relacionadas con su género, su diversidad sexual, su pertenencia étnica, su discapacidad, u otras situaciones, y que, por ende, se encuentren en situaciones de desigualdad 
+            i.fas.fa-quote-right
+          .bloque-texto-d__autor 
+            .h5.mb-0 (ICBF, 2017, p. 5).
+      
     .row.mb-5.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-4.mb-4.mb-lg-0
         figure
-          img.img-t(src='@/assets/curso/tema2/img51.png').m-auto
+          img.img-t(src='@/assets/curso/tema2/img19.png').m-auto
       .col-lg-8(data-aos="fade-left")
-        p Con el análisis de los instrumentos de medición de habilidades y una lectura integrada con los resultados de los otros instrumentos de diagnóstico se pueden generar, en comunicación con las familias, hipótesis de trabajo y cursos de acción que permitan orientar el acompañamiento familiar psicosocial y brindar una atención diseñada a la medida de sus necesidades y realidades. 
-        p La forma como se realice el levantamiento de esta información es vital para el adecuado análisis e interpretación de los resultados. Por esto, es importante no cambiar el orden de las preguntas, mantener el fraseo propuesto en los formularios y sobre todo, no interferir en la respuesta de las familias. Para una adecuada recolección de información a través de estos instrumentos, idealmente deberá generarse un espacio para que cada integrante pueda responder de manera autónoma las preguntas y en caso de dudas, frente a palabras o significado de alguna frase y brindar el acompañamiento requerido. 
-    p En casos en los que no sea posible el diligenciamiento autónomo, ya sea por razones de bioseguridad o nivel de comprensión de la persona, será el profesional quien realice en voz alta cada una de las preguntas y las opciones de respuesta, en estos casos y sin interferir con la respuesta, puede hacer lectura del lenguaje corporal para incluirlo entre los componentes del diagnóstico. 
-    .bg9.p-2.mb-5
-      .row.align-items-center.p-3
-        .col-lg-auto
-          figure
-            img.mb-3(src='@/assets/curso/tema2/img52.svg', style="width: 80px").m-auto
-        .col-lg.mb-4.mb-lg-0
-          p.mb-0 La siguiente tabla incluye un resumen de los cuatro instrumentos de habilidades del programa Mi familia, sus subescalas, la población a la que van dirigidos, la cantidad de preguntas o ítems y las opciones de respuesta. 
-    .row.justify-content-center
-      .col-lg-8.col-xl-8
-        .titulo-sexto.color-acento-contenido
-          h5 Tabla 1 
-          span Instrumentos de habilidades del programa Mi familia
-        .tabla-a.color-acento-contenido.mb-5 
-          table
-            thead
-              tr
-                th Instrumento
-                th Subescala o componente
-                th ¿A quién se aplica?
-                th Cantidad de preguntas o ítems
-                th Escala
-            tbody
-              tr
-                th(rowspan="2") Autoeficacia parental
-                td Autoeficacia  
-                td(rowspan="2") Padres y madres
-                td.text-center 7
-                td(rowspan="2") 
-                  p.mb-0 1-Totalmente en desacuerdo 
-                  p.mb-0 2-Bastante en desacuerdo
-                  p.mb-0 3-En desacuerdo
-                  p.mb-0 4-De acuerdo
-                  p.mb-0 5-Bastante de acuerdo
-                  p.mb-0 6-Totalmente de acuerdo
-              tr
-                td Satisfacción 
-                td.text-center 10
-             
-              tr(style="background-color: #F6F6F6")
-                th(rowspan="4") Disciplina positiva
-                td Parentalidad positiva
-                td(rowspan="4") Padres, madres y, niños, niñas y adolescentes entre 12 y 18 años.
-                td.text-center 6
-                td(rowspan="4") 
-                  p.mb-0 1-Nunca
-                  p.mb-0 2-Casi nunca
-                  p.mb-0 3-A veces
-                  p.mb-0 4-A menudo
-                  p.mb-0 5-Siempre 
+        p Así mismo, se acerca a la comprensión de la diversidad, no desde los márgenes y los límites con el otro que se denotan como diferente, sino desde entender que la realidad de las sociedades ocurre en múltiples y simultáneas condiciones cotidianas.
+        p La modalidad entonces, reconoce la diversidad y la diferencia como oportunidad para fortalecer el ejercicio y la garantía de los derechos de todas las personas, especialmente aquellas poblaciones vulneradas. Así, mediante la participación en los procesos familiares, comunitarios, sociales y políticos, se promueve el fortalecimiento de sus habilidades y el acceso a servicios. (UNESCO, 2005) (CEPAL, 2008).
+    
+    .row.justify-content-center.mb-4(data-aos="zoom-in-down")
+      .col-lg-8    
+        .bloque-texto-a.color-secundario.p-4.p-md-5.d-none.d-lg-block
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-7
+              .bloque-texto-a__texto.p-4
+                p.m-0 El acompañamiento a las familias con una perspectiva psicosocial centra sus esfuerzos en fortalecer recursos y capacidades en el ámbito de la vida familiar buscando su cohesión y su inclusión social y productiva; de esta forma, lo psicosocial da cuenta de la interacción entre lo psíquico y lo social, lo individual y lo colectivo.
 
-              tr(style="background-color: #F6F6F6")
-                td Involucramiento parental 
-                td.text-center 10
-              tr(style="background-color: #F6F6F6")
-                td Bajo monitoreo o supervisión 
-                td.text-center 10
-              tr(style="background-color: #F6F6F6")
-                td Castigo físico
-                td.text-center 3
-                tr(style="background-color: #F6F6F6")                       
-              tr
-                th(rowspan="3") Regulación emocional
-                td Atención
-                td(rowspan="3")
-                  p Padres, madres y, niños, niñas y adolescentes entre 12 y 18 años.
-                  p * Cuidador principal cuando no esté presente el padre o la madre.
-                td.text-center 8
-                td(rowspan="3") 
-                  p.mb-0 1-Nada de acuerdo
-                  p.mb-0 2-Algo de acuerdo
-                  p.mb-0 3-Bastante de acuerdo
-                  p.mb-0 4-Muy de acuerdo
-                  p.mb-0 5-Totalmente de acuerdo
-              tr
-                td Claridad
-                td.text-center 8
-              tr
-                td Reparación
-                td.text-center 8
-              tr(style="background-color: #F6F6F6")
-                th(rowspan="3") Vinculación
-                td Cariño
-                td(rowspan="3")
-                  p Niños, niñas y adolescentes entre 12 y 18 años.
-                td.text-center 5
-                td(rowspan="3") 
-                  p.mb-0 1-Nunca
-                  p.mb-0 2-Casi nunca
-                  p.mb-0 3-Muchas veces
-                  p.mb-0 4-Siempre
-              tr(style="background-color: #F6F6F6")
-                td Hostilidad
-                td.text-center 7
-              tr(style="background-color: #F6F6F6")
-                td Hostilidad
-                td.text-center 7
-              
+    .row.justify-content-center.mb-4.mb-lg-5(data-aos="zoom-in-down")
+      .col-lg-8
+        .bloque-texto-g.color-primario.color_bloque.p-3.p-sm-4.p-md-5.m_bloque.d-lg-none.d-md-block.tambq
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema2/img20.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4.py-5
+            p.m-0 En conclusión, el PAF o profesional de acompañamiento familiar debe desde la modalidad propender por la movilización del componente, según las necesidades y realidades de las familias, para lograr su fortalecimiento.
+    p.mb-5 Para identificar esas realidades y necesidades, se deben tener en cuenta las indagaciones que se realicen en el primer momento de encuentro con las familias durante las conversaciones con las familias y movilizar procesos, por ejemplo: si en las primeras visitas se encuentra que uno de los integrantes de la familia es una persona con discapacidad, el PAF deberá realizar gestiones para lograr su vinculación al registro para la caracterización y localización de personas con discapacidad (RCLPCD); o si algún integrante no se encuentra vinculado al sistema de seguridad social, se realizarán gestiones para su inclusión y garantía de derecho a la salud. 
+    .titulo-sexto.color-acento-contenido
+      p.mb-0 #[b Figura 1]. Diagrama dimensiones y líneas de gestión - Convergencia de oferta y gestión de redes
+    .row.justify-content-center
+      .col-lg-12
+        figure
+          img(src='@/assets/curso/tema2/img21.png')
 </template>
 
 <script>
