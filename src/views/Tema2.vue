@@ -157,11 +157,12 @@
 
     .bg1.p-2
       .row.align-items-center.p-3.mb-5
-        .col-lg-12
+        .col-lg-auto
           figure
             img.mb-3(src='@/assets/curso/tema2/img8.svg', style="width: 80px").m-auto
         .col-lg.mb-4.mb-lg-0
           p.mb-0 Para el buen desarrollo del acompañamiento, se deben revisar los instrumentos de caracterización presentados en el componente formativo Estructuración del acompañamiento psicosocial familiar y estudiar las especificidades de cada uno de estos consignados en las publicaciones (Ficha de Caracterización, Genograma, Ecomapa, Mapa de pertenencia y Medición de Habilidades).
+        
     .row.justify-content-center.align-items-center.mb-5          
       .col-lg-6.py-4
         img.img-t.mb-3(src='@/assets/curso/tema2/img9.svg', alt='')  
