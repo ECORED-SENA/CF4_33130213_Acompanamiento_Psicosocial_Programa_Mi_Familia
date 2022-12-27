@@ -5,7 +5,8 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 ¿Con qué otras herramientas se cuentan para el acompañamiento psicosocial? Acciones adicionales en el acompañamiento psicosocial 
+    
 
 </template>
 
