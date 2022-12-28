@@ -166,7 +166,7 @@
     
     separador
 
-     #t_3_3
+    #t_3_3
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.3 Articulación con primera infancia
 
@@ -188,7 +188,7 @@
           ul.lista-ul--color.mb-0
             li 
               i.fas.fa-check-circle.colr
-              | La articulación es vista como un proceso para el cumplimiento de la misionalidad del ICBF, protección integral de niños, niñas adolescentes y familias.
+              | La articulación es vista como un proceso para el cumplimiento de la misionalidad del ICBF, protección integral de niños, niñas, adolescentes y familias.
             li 
               i.fas.fa-check-circle.colr
               | Es necesaria para definir concertadamente actividades y acciones entre los diferentes actores, que se desarrollen en la implementación de la modalidad Mi Familia, buscando el fortalecimiento familiar.
@@ -225,7 +225,7 @@
       .tarjeta.bg_10.p-4.h-100
         figure.mb-3
           img.w-auto(src="@/assets/curso/tema3/img18.svg", alt="alt")
-        p.mb-0 En caso de que sea requerido, puede hacerse uso del mapeo de oferta de la modalidad Mi Familia y/o directorio de entidades del componente de Familia comunidad y redes de los servicios de primera infancia.
+        p.mb-0 En caso de que sea requerido, puede hacerse uso del mapeo de oferta de la modalidad Mi Familia y/o directorio de entidades del componente de Familia, comunidad y redes de los servicios de primera infancia.
       .tarjeta.bg_10.p-4.h-100
         figure.mb-3
           img.w-auto(src="@/assets/curso/tema3/img18.svg", alt="alt")
@@ -257,7 +257,7 @@
           figure.mb-3
             img.w-auto(src="@/assets/curso/tema3/img19.svg", alt="alt")
         .col-md-10.col-lg-11.d-flex.align-items-center
-          p.mb-0 En ningún caso las acciones de acompañamiento de la modalidad Mi Familia, sustituyen las acciones realizadas en el marco del cumplimiento de las condiciones de calidad de los servicios de atención a la primera infancia
+          p.mb-0 En ningún caso las acciones de acompañamiento de la modalidad Mi Familia, sustituyen las acciones realizadas en el marco del cumplimiento de las condiciones de calidad de los servicios de atención a la primera infancia.
 
 
       

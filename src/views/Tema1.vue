@@ -253,10 +253,10 @@
                 img(src='@/assets/curso/tema1/img16.svg', alt='Texto que describa la imagen')(data-aos="fade-right")
             .tarjeta.color-cuarto1.p-3(x="14%" y="103%" numero="+")
               p <b>Familiar intensivo</b> 
-              p.mb-0 Las familias con necesidades de acompañamiento familiar intensivo Contempla 13 visitas en el domicilio, incluída la de cierre y 4 encuentros familiares. Si una vez vinculada la familia con necesidad de acompañamiento intensivo, el operador identifica que existe un integrante con discapacidad, las trece visitas deberán incluir 2 visitas diferenciales en discapacidad y se adicionan 2 encuentros diferenciales de discapacidad.
+              p.mb-0 Las familias con necesidades de acompañamiento familiar intensivo Contempla 13 visitas en el domicilio, incluida la de cierre y 4 encuentros familiares. Si una vez vinculada la familia con necesidad de acompañamiento intensivo, el operador identifica que existe un integrante con discapacidad, las trece visitas deberán incluir 2 visitas diferenciales en discapacidad y se adicionan 2 encuentros diferenciales de discapacidad.
             .tarjeta.color-cuarto1.p-3(x="35%" y="104%" numero="+")
               p <b>Familiar preventivo</b> 
-              p.mb-0 Las familias con necesidades de acompañamiento familiar preventivo contempla 9 visitas en domicilio incluída la de cierre y 4 encuentros familiares. Para las familias con integrantes con discapacidad, las nueve visitas incluyen 2 visitas diferenciales en discapacidad y se adicionan 2 encuentros diferenciales de discapacidad.
+              p.mb-0 Las familias con necesidades de acompañamiento familiar preventivo contempla 9 visitas en domicilio incluida la de cierre y 4 encuentros familiares. Para las familias con integrantes con discapacidad, las nueve visitas incluyen 2 visitas diferenciales en discapacidad y se adicionan 2 encuentros diferenciales de discapacidad.
             .tarjeta.color-cuarto1.p-3(x="75.7%" y="103%" numero="+")
               p <b>Acompañamiento familiar</b> 
               p.mb-0 Las familias con necesidades de acompañamiento familiar contempla 9 visitas en domicilio y 6 encuentros comunitarios. Para las familias con integrantes con discapacidad, las nueve visitas incluyen 2 visitas diferenciales de discapacidad y se adiciona un encuentro comunitario diferencial de discapacidad.

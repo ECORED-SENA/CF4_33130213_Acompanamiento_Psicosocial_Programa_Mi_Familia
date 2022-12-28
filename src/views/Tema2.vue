@@ -93,11 +93,11 @@
         .col-lg-4
           figure
             img.img-t.m-auto(src='@/assets/curso/tema2/img7.svg', alt='Texto que describa la imagen')
-          a.boton.color-acento-contenido.indicador__container(@click="modal1 = true")
+          a.boton.color-acento-contenido.indicador__container(@click="modal2 = true")
             span Ampliar imagen
             i.fas.fa-search
             .indicador--click(v-if="mostrarIndicador")
-          ModalA(:abrir-modal.sync="modal1")
+          ModalA(:abrir-modal.sync="modal2")
             .row
               .col-12
                 figure
@@ -134,15 +134,16 @@
                   h4 Temáticas para el Acompañamiento Psicosocial Familiar
                   p Para las visitas de profundización, la modalidad Mi Familia propone una serie de temáticas, sin embargo, el PAF junto con la UAT estará en capacidad de diseñar nuevas temáticas, según el contexto territorial y realidad familiar (ICBF, 2022, p. 59).
                 .col-sm-auto
-                  a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                  a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
                     span.text-white Ver imagen
                     i.fas.fa-search(style="color: white")
                     .indicador--click(v-if="mostrarIndicador")
-                  ModalA(:abrir-modal.sync="modal1")
+                  ModalA(:abrir-modal.sync="modal3")
                     .row
                       .col-12
                         figure
                           img(src='@/assets/curso/tema2/img8.jpg', style="width: 900px").m-auto
+
     Separador
     #t_2_3
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -332,6 +333,8 @@ export default {
   data: () => ({
     mostrarIndicador: true,
     modal1: false,
+    modal2: false,
+    modal3: false,
   }),
   mounted() {
     this.$nextTick(() => {

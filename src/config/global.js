@@ -199,7 +199,7 @@ export default {
     },
     {
       tema: 'Articulación con protección',
-      referencia: 'ICBF & USAID. (2021). Pensarnos en Familia.',
+      referencia: 'ICBF & USAID. (2021). “Proyectándonos en Familia.',
       tipo: 'Cartilla',
       descarga: '/downloads/anexo3.pdf',
     },
@@ -260,7 +260,7 @@ export default {
     },
     {
       referencia:
-        'ICBF. (2021).. Lineamiento Técnico Modalidad Mi Familia, 48. Bogotá, Colombia. Obtenido de',
+        'ICBF. (2021). Lineamiento Técnico Modalidad Mi Familia, 48. Bogotá, Colombia. Obtenido de',
       link: 'https://www.icbf.gov.co/misionales/promocion-y-prevencion/familia',
     },
     {
