@@ -199,7 +199,7 @@ export default {
     },
     {
       tema: 'Articulación con protección',
-      referencia: 'ICBF & USAID. (2021). “Proyectándonos en Familia.',
+      referencia: 'ICBF & USAID. (2021). Proyectándonos en Familia.',
       tipo: 'Cartilla',
       descarga: '/downloads/anexo3.pdf',
     },
