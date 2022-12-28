@@ -409,7 +409,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Yuli Marcela Gomez',
         cargo: 'Validación de  contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
